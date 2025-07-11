@@ -5,8 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: rgba(78, 71, 255, 0.01);
-  height: 500vh;
+  background: #F5F8FF;
 }
 img {
   width: 100%;
@@ -32,6 +31,7 @@ img {
 .btn:hover {
   background: rgb(183, 183, 81);
   cursor: pointer;
+  transform: scale(1.07);
 }
 a {
   text-decoration: none;
@@ -169,6 +169,24 @@ nav {
   color: #6b6969;
   margin: 8px 0 24px;
 }
+/* extraSection */
+.extraSection{
+  padding: 71px 130px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 14px;
+}
+.extraSection .subText{
+  font-size: 16px;
+    color: #8987a1;
+    margin-top: 20px;
+}
+.extraSection img{
+  border-radius: 48px;
+}
+.btnExtra{
+  margin:20px 0;
+}
 
 /* getInTouchSection */
 
@@ -203,16 +221,8 @@ textarea {
   border-radius: 10px;
   color: rgba(0, 0, 0, 0.5);
 }
-.btnSub {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  color: #ffffff;
-  padding: 12px 0;
-  border-radius: 10px;
-  background: #4e47ff;
-  border: none;
-  transition: 0.3s;
+.btnSub{
+
   width: 100%;
   margin-top: 20px;
 }
@@ -261,4 +271,26 @@ textarea {
   border-radius: 5px;
   background: #d6dded;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
