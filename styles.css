@@ -1,184 +1,264 @@
 /* common styles */
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  background:rgba(78,71,255,0.01);
+body {
+  background: rgba(78, 71, 255, 0.01);
   height: 500vh;
 }
-img{
+img {
   width: 100%;
 }
-.fontPrimary{
-  font-family: 'Inter', sans-serif;
+.fontPrimary {
+  font-family: "Inter", sans-serif;
 }
-.fontSecondery{
-  font-family: 'Raleway', sans-serif;
+.fontSecondery {
+  font-family: "Raleway", sans-serif;
 }
 
-.btn{
-  font-family: 'Raleway', sans-serif;
+.btn {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  color:#FFFFFF ;
+  color: #ffffff;
   padding: 12px 36px;
   border-radius: 10px;
-  background: #4E47FF;
+  background: #4e47ff;
   border: none;
-  transition: .3s;
+  transition: 0.3s;
 }
-.btn:hover{
-  background:rgb(183, 183, 81) ;
+.btn:hover {
+  background: rgb(183, 183, 81);
   cursor: pointer;
 }
-a{
+a {
   text-decoration: none;
 }
-.container{
+li {
+  list-style: none;
+}
+.container {
   max-width: 1140px;
   margin: 0 auto;
 }
-.colorPrimary{
-  color: #4E47FF;
+.colorPrimary {
+  color: #4e47ff;
 }
-.colorSecondery{
-  color: rgba(0,0,0,0.5);
+.colorSecondery {
+  color: rgba(0, 0, 0, 0.5);
 }
-.mt-116{
+.mt-116 {
   margin-top: 116px;
 }
 /* header section start */
-header{
+header {
   background: url("./images/Hero-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 50px 0;
 }
 
-.logo{
-  font-family: 'Inter', sans-serif;
-  font-weight:1000 ;
+.logo {
+  font-family: "Inter", sans-serif;
+  font-weight: 1000;
   font-size: 34px;
-  color: #4E47FF;
+  color: #4e47ff;
 }
 
-.bannerPart{
+.bannerPart {
   text-align: center;
   padding: 152px 0;
 }
-.bannerPart .bannerHeading{
+.bannerPart .bannerHeading {
   font-size: 64px;
   font-weight: 700;
   max-width: 800px;
-  margin:0 auto 37px;
+  margin: 0 auto 37px;
 }
 /* header section end */
 
-
 /* action section start */
-.actionSection{
+.actionSection {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
- .sectionHeading{
-  font-size:42px;
-  font-weight:700;
+.sectionHeading {
+  font-size: 42px;
+  font-weight: 700;
   color: #252432;
 }
-.descriptionPart .description{
+.descriptionPart .description {
   font-size: 24px;
-  font-weight:400 ;
-  color: rgba(37,36,50,.5);
-  max-width:  465px;
-  margin:23px 0;
+  font-weight: 400;
+  color: rgba(37, 36, 50, 0.5);
+  max-width: 465px;
+  margin: 23px 0;
 }
-.imgPart img{
-border-radius: 48px;
+.imgPart img {
+  border-radius: 48px;
 }
-
 
 /* productive User Section */
-.productiveUserSection{
+.productiveUserSection {
   text-align: center;
-  padding:50px 80px ;
+  padding: 50px 80px;
   background: rgba(78, 71, 255, 0.1);
-border-radius: 24px;
+  border-radius: 24px;
 }
-.details{
+.details {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 40px;
 }
-.detail .count{
-  font-size:80px;
-  font-weight:700;
+.detail .count {
+  font-size: 80px;
+  font-weight: 700;
 }
-.detail .text{
+.detail .text {
   font-weight: 400;
-  font-size:20px;
+  font-size: 20px;
 }
-
 
 /* review section */
-.reviewSection{
+.reviewSection {
   text-align: center;
 }
-.ratting img{
+.ratting img {
   width: 20px;
   height: 20px;
 }
-.cards{
+.cards {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   gap: 24px;
   margin-top: 50px;
 }
-.card{
+.card {
   padding: 40px;
+  text-align: left;
   background: rgba(255, 255, 255, 0.5);
-border: 1px solid #F2EDED;
-border-radius: 14px;
-text-align: left;
+  border: 1px solid #f2eded;
+  border-radius: 14px;
 }
-.card .cardHeading{
+.card .cardHeading {
   margin: 24px 0 8px;
-  font-size:25px;
+  font-size: 25px;
 }
-.reviewerdetail{
+.reviewerdetail {
   display: flex;
   align-items: center;
-  gap:15px;
+  gap: 15px;
 }
-.reviewerdetail .reviewerImg{
+.reviewerdetail .reviewerImg {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-.card .cardDetail{
+.card .cardDetail {
   color: #6b6969;
   margin: 8px 0 24px;
 }
 
+/* getInTouchSection */
 
+.getInTouchSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.getInTouchSection .gitHeading {
+  color: #000000;
+  font-weight: 700;
+  font-size: 97px;
+  padding: 71px 0;
+  max-width: 510px;
+}
 
+.getInTouchSection form {
+  width: 40%;
+}
+.getInTouchSection form label {
+  margin: 20px 0 10px 0;
+  display: inline-block;
+}
+.getInTouchSection form input,
+textarea {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #d6dded;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.btnSub {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 12px 0;
+  border-radius: 10px;
+  background: #4e47ff;
+  border: none;
+  transition: 0.3s;
+  width: 100%;
+  margin-top: 20px;
+}
+.btnSub:hover {
+  background: rgb(183, 183, 81);
+  cursor: pointer;
+}
 
+/* footer section  */
+.footer {
+  background: #ffffff;
+  text-align: center;
+}
 
+.footerDetails {
+  max-width: 531px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0;
+}
 
+.footerDetails .footerlogo {
+  color: #4e47ff;
+  font-weight: 800;
+  font-size: 100px;
+}
+.footerDetails p {
+  margin: 20px 0 15px;
+  color: #8987a1;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footerDetails .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 15px;
+}
+.footerDetails .links .link {
+  color: #8987a1;
+  transition: 0.3s;
+}
 
-
-
-
-
+.footerDetails .links .link:hover {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #d6dded;
+}
 
